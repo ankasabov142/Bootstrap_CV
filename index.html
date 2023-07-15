@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Cv</title>
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
@@ -11,99 +11,188 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark data-bs-theme border-bottom border-bottom-dark" data-bs-theme="dark"
-        <div class="container-fluid">
-          <a class="navbar-brand fs-2" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link  fs-3" aria-current="page" href="#">Home</a>
+  <body class="col-8">
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2" href="#home">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fs-3" aria-current="page" href="#work"
+                >Work History</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3" href="#contact">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-3" href="#education">Education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="home" class="red fs-2 fw-bold p-3">
+      <div class="mt-4 border-bottom border-dark">
+        <p id="name">Angel Kasabov</p>
+        <h2>JavaScript Enthusaist</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-2 mb-2">
+          <h3>
+            Goal-oriented, eager for new knowledge and development in the IT
+            field. I have learned for myself that the best way to gain knowledge
+            is by practicing it. I have experience in Front End Web Development,
+            and Linux System Administration and a passion for development in the
+            fields. I have excellent spoken and written English, also a good
+            level of French. I am ready to learn a lot and give of myself for
+            the common prosperity.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row container-fluid align-items-start">
+      <div class="row col-8">
+        <div class="row">
+          <p id="work" style="height: fit-content" class="fw-bold fs-3 red">
+            <i class="fa-solid fa-business-time red"></i>Work History
+          </p>
+
+          <div class="col-3"><h4>06.2022 -09.2022</h4></div>
+          <div class="col-9 fs-1">
+            <p class="fs-3 fw-bold">Summer Job</p>
+            <h4>Worker, Varna</h4>
+            <ul class="list-group">
+              <li class="list-group-item-dark fs-4 fs-4">
+                Paid attention to detail while completing assignments
               </li>
-              <li class="nav-item">
-                <a class="nav-link fs-3 " href="#">Features</a>
+              <li class="list-group-item-dark fs-4">
+                Worked well in a team setting, providing support and guidance.
               </li>
-              <li class="nav-item">
-                <a class="nav-link fs-3" href="#">Pricing</a>
+              <li class="list-group-item-dark fs-4">
+                Developed strong organizational and communication skills through
+                coursework and volunteer activities.
+              </li>
+              <li class="list-group-item-dark fs-4">
+                Applied effective time management techniques to meet tight
+                deadlines.
+              </li>
+              <li class="list-group-item-dark fs-4">
+                Participated in team projects, demonstrating an ability to work
+                collaboratively and effectively.
+              </li>
+              <li class="list-group-item-dark fs-4">
+                Self-motivated, with a strong sense of personal responsibility.
+              </li>
+              <li class="list-group-item-dark fs-4">
+                Learned and adapted quickly to new technology and software
+                applications.
+              </li>
+              <li class="list-group-item-dark fs-4">
+                Worked flexible hours across night, weekend and holiday shifts.
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    <div class="container-fluid fs-1 fw-bold p-3 text-center">
-        <div class="row-">
-            <div class="col-12 mt-4">
-                <p>Angel Kasabov</p>
-            </div>
+        <div class="row mt-5">
+          <div class="col-3">
+            <p id="education" class="fs-3 red fw-bold">
+              <i class="fa-solid fa-graduation-cap"></i>Education
+            </p>
+            <h4 class="mb-5">09.2019-Current</h4>
+
+            <h4>11.2021-Current</h4>
+          </div>
+
+          <div class="col-9">
+            <p class="fs-3 mt-5 fw-bold">High School Diploma</p>
+            <p class="fs-4 text-right">Fifth Language School "Johan Exarch"</p>
+
+            <p class="fs-3 fw-bold">Front End Web Development</p>
+            <p class="fs-4 text-right">
+              Software University - Distance Learning
+            </p>
+          </div>
         </div>
-        
-    
-    </div>
-    <div class="container-fluid">
+      </div>
+      <div class="col-4">
+        <p id="contact" class="fw-bold fs-2 red">
+          <i class="fa-solid red fa-id-badge"></i> Contact
+        </p>
+
+        <p class="fs-3 fw-bold">Adress:</p>
+        <h3><i class="fa-solid fa-location-dot"></i>Varna, 9000 Bulgaria</h3>
+        <p class="fs-3 fw-bold">Phone:</p>
+        <h3><i class="fa-solid fa-phone"></i>+359896633385</h3>
+        <p class="fs-3 fw-bold">E-mail:</p>
+        <h3>
+          <i class="fa-solid fa-envelope-circle-check"></i
+          >ankasabov142@gmail.com
+        </h3>
+        <p class="fs-3 fw-bold">Github:</p>
+        <h3>
+          <i class="fa-brands fa-square-github"></i
+          ><a href="https://github.com/ankasabov142" class="link-dark"
+            >ankasabov142</a
+          >
+        </h3>
         <div class="row">
-            <div class="col-12 mt-2 mb-2 "><h1>Goal-oriented, eager for new knowledge and development in the IT field. I have learned for myself
-        that the best way to gain knowledge is by practicing it. I have experience in Front End Web Development, and
-        Linux System Administration and a passion for development in the fields. I have excellent spoken and
-        written English, also a good level of French. I am ready to learn a lot and give of myself for the
-        common prosperity.</h1></div>
+          <div class="col-4 fs-3 mt-5 fw-bold red">
+            <p id="skills">
+              <svg
+                class="red"
+                xmlns="http://www.w3.org/2000/svg"
+                width="31"
+                fill="currentColor"
+                class="bi bi-puzzle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.459.459 0 0 0-.115.118.113.113 0 0 0-.012.025L6.5 4.5v.003l.003.01c.004.01.014.028.036.053a.86.86 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.86.86 0 0 0 .271-.194.213.213 0 0 0 .036-.054l.003-.01v-.008a.112.112 0 0 0-.012-.025.459.459 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.459.459 0 0 0 .115-.118.113.113 0 0 0 .012-.025L9.5 11.5v-.003l-.003-.01a.214.214 0 0 0-.036-.053.859.859 0 0 0-.27-.194C8.91 11.1 8.49 11 8 11c-.491 0-.912.1-1.19.24a.859.859 0 0 0-.271.194.214.214 0 0 0-.036.054l-.003.01v.002l.001.006a.113.113 0 0 0 .012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238l-.244-2.855z"
+                />
+              </svg>
+              Skills
+            </p>
+          </div>
+          <p class="fs-4">Front End Web Development</p>
+          <p class="fs-4">JavaScript programming</p>
+          <p class="fs-4">HTML & CSS</p>
+          <p class="fs-4">Linux</p>
+          <p class="fs-4">System upgrades</p>
+          <p class="fs-4">Program installations</p>
+          <p class="fs-4">Angular</p>
+          <p class="fs-4">Linux Environment</p>
+          <p class="fs-4">Git & Github</p>
+          <p class="fs-4">Bootstrap 5</p>
         </div>
+      </div>
     </div>
+
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-8 fs-1 mt-5 mr-5 "><p class="fw-bold"><i class="fa-solid fa-business-time"></i>Work History<p></div>
-                <div class="col-4 fs-1 mt-5 mr-5"><p class="fw-bold"><i class="fa-solid fa-id-badge"></i> Contact</p></div>
-        </div>
+      <div class="row"></div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2 fs-1 mt-2"><p>06.2022 -09.2022 </p></div>
-                <div class="col-6 fs-1 mt-2 mr-5">
-                    <p class="fs-1 fw-bold">Summer Job</p>
-                    <p><h3>Worker, Varna</h3></p>
-                    <ul class="list-group">
-                    <li class="list-group-item-dark">Paid attention to detail while completing
-                        assignments</li>
-                    <li class="list-group-item-dark">Worked well in a team setting, providing
-                        support and guidance.</li>
-                    <li class="list-group-item-dark">Developed strong organizational and
-                        communication skills through coursework and
-                        volunteer activities.</li>
-                    <li class="list-group-item-dark">Applied effective time management
-                        techniques to meet tight deadlines.</li>
-                    <li class="list-group-item-dark">Participated in team projects, demonstrating
-                        an ability to work collaboratively and
-                        effectively.</li>
-                    <li class="list-group-item-dark">Self-motivated, with a strong sense of personal
-                        responsibility.</li>
-                    <li class="list-group-item-dark">Learned and adapted quickly to new
-                        technology and software applications.</li>
-                    <li class="list-group-item-dark">Worked flexible hours across night, weekend
-                        and holiday shifts.</li>
-                  </ul>
-                </div>
-                
-            
-                <div class="col-4 fs-1 mt-5 mr-5">
-                    <p class="fs-1 fw-bold">Adress:</p>
-                    <p><h2><i class="fa-solid fa-location-dot"></i>Varna, 9000 Bulgaria</h2></p>
-                    <p class="fs-1 fw-bold">Phone:</p>
-                    <p><h2><i class="fa-solid fa-phone"></i>+359896633385</h2></p>
-                    <p class="fs-1 fw-bold">E-mail:</p>
-                    <p><h2><i class="fa-solid fa-envelope-circle-check"></i>ankasabov142@gmail.com</h2></p>
-                    <p class="fs-1 fw-bold">Github:</p>
-                    <p><h2><i class="fa-brands fa-square-github"></i><a href="https://github.com/ankasabov142" class="link-dark">ankasabov142</a></h2></p>
-                </div>
-
-            
-        </div>
-    </div>
-
-
-    <script src="https://kit.fontawesome.com/3f761f1484.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3f761f1484.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
