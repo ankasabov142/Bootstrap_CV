@@ -3,9 +3,12 @@ html {
   padding: 12px;
 }
 body {
+    padding: 24px;
   background-color: #f8f9fa;
   margin: auto;
 }
+nav{height: fit-content;}
+
 .red {
   color: #880808;
 }
